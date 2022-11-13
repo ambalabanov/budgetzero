@@ -3,7 +3,7 @@ version: "3"
 services:
   backend:
     build: ./backend
-    image: budgetzero_backend 
+    image: ambalabanov/budgetzero_backend
     container_name: budgetzero_backend
     restart: always
     ports:
@@ -29,8 +29,8 @@ services:
     # username/pass should match env variables above
       
   frontend:
-    image: budgetzero_frontend
-    container_name: budgetzero
+    image: ambalabanov/budgetzero_frontend
+    container_name: budgetzero_frontend
     restart: always
     ports:
       - 8080:8080
