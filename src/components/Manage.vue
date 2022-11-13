@@ -138,7 +138,13 @@ export default {
       manageBudgetsModalVisible: false,
       dialog: false,
       item: {},
-      currencies: symbols.map(({ key, value }) => ({ value: key, text: value }))
+         currencies: [
+        { value: 'USD', text: '$' },
+        { value: 'EUR', text: '€' },
+        { value: 'GBP', text: '£' },
+        { value: 'RUB', text: '₽' }
+      ]
+      // currencies: symbols.map(({ key, value }) => ({ value: key, text: value }))
     }
   },
   computed: {

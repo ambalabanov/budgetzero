@@ -7,7 +7,8 @@ function sanitizeValueInput(value) {
 var symbols = {
   USD: '$',
   EUR: '€',
-  GBP: '£'
+  GBP: '£',
+  RUB: '₽'
 }
 
 export { sanitizeValueInput, symbols }

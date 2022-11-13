@@ -565,15 +565,15 @@ tr:hover .crud-actions {
 
 .money-amount {
   text-align: right;
-  min-width: 90px;
-  width: 90px;
-  max-width: 90px;
+  min-width: 130px;
+  width: 130px;
+  max-width: 130px;
   padding-left: 0;
   padding-right: 5px;
 }
 .budgeted-amount {
   text-align: right;
-  width: 100px;
+  width: 130px;
   padding-left: 0;
   padding-right: 5px;
 }
@@ -585,7 +585,7 @@ tr:hover .crud-actions {
 }
 .balance-amount {
   text-align: right;
-  width: 100px;
+  width: 130px;
   padding-left: 0;
   padding-right: 5px;
 }
